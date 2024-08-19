@@ -1,0 +1,87 @@
+.tweetOwner,
+.tweetContent {
+    padding: 0;
+    height: fit-content;
+}
+
+.tweetMainDiv {
+    width: 63vw;
+    border: 1px solid #aaaaaa60;
+    border-radius: 10px;
+}
+
+.imgDiv {
+    height: 100%;
+}
+
+.innerDiv {
+    display: flex;
+    gap: 1rem;
+    align-items: start;
+    padding: 15px;
+}
+
+.tweetOwner {
+    font-weight: 900;
+}
+
+.tweetContentDiv {
+    width: 100%;
+}
+
+.tweetContent {
+    font-size: 1.2rem;
+}
+
+.imgDiv {
+    display: flex;
+    align-items: start;
+}
+
+
+.userControlDiv {
+    display: flex;
+    gap: 0.9rem;
+    height: fit-content;
+    margin-top: 0.4rem;
+}
+
+.tweetLike,
+.tweetShare,
+.tweetEdit,
+.tweetDelete {
+    gap: 0.3rem;
+    padding: 0;
+}
+
+.tweetLike:hover,
+.tweetShare:hover,
+.tweetEdit:hover,
+.tweetDelete:hover {
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.ownerImageDiv {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.ownerName {
+    font-weight: 900;
+}
+
+.createTweetMainDiv {
+    border: 2px solid #aaaaaa91;
+    width: 63vw;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+}

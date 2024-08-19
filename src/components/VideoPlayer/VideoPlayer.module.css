@@ -1,0 +1,283 @@
+.mainDiv {
+    padding: 20px 30px;
+    display: flex;
+    gap: 2rem;
+    height: fit-content;
+}
+
+.videoTitle {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.avatarDiv {
+    margin-top: 0.5rem;
+}
+
+.avatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.channelDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid gray;
+}
+
+.channelName {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.leftDiv {
+    width: 70vw;
+}
+
+.descriptionDiv {
+    margin-top: 0.4rem;
+    background-color: rgba(219, 219, 219, 0.1);
+    padding: 10px;
+    border-radius: 12px;
+}
+
+.viewsPara {
+    font-weight: 700;
+}
+
+.timePara {
+    padding: 0;
+}
+
+.viewsDiv {
+    display: flex;
+    gap: 0.1rem;
+    height: 30px;
+}
+
+.cardDiv {
+    display: flex;
+    gap: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.suggestedTitle {
+    width: 230px;
+}
+
+.suggestedTitlePara {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.suggestedVideoOwner {
+    font-size: 12px;
+    color: #AAAAAA;
+    margin-bottom: 1px;
+}
+
+.suggestedViewsTime {
+    display: flex;
+    gap: 5px;
+}
+
+.suggestedViews,
+.suggestedTime {
+    font-size: 12px;
+    color: #AAAAAA;
+}
+
+.loadingDiv {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 20rem;
+}
+
+.cardMediaWrapper {
+    position: relative;
+}
+
+.cardMedia {
+    transition: transform 0.3s ease;
+}
+
+.cardDiv:hover .cardMedia {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 16px;
+    font-size: 0.7rem;
+}
+
+.cardDiv:hover .overlay {
+    display: block;
+}
+
+.playDiv {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.playPara {
+    margin: 0;
+}
+
+.cardDiv:hover {
+    cursor: pointer;
+}
+
+.avatarAndNameDiv {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.likesDislikeAndShareDiv {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center
+}
+
+.likeDiv,
+.dislikeDiv,
+.shareDiv {
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.likeDislikeDiv {
+    display: flex;
+    align-items: center;
+    padding: 2px 10px;
+    background-color: rgba(170, 170, 170, 0.1);
+    border-radius: 20px;
+
+}
+
+.likeDiv,
+.dislikeDiv {
+    padding: 5px;
+    height: 34px;
+    padding-top: 2px;
+    padding: 2px 10px;
+}
+
+.likeDiv {
+    border-right: 1px solid gray;
+}
+
+.commentDiv {
+    margin-top: 1.8rem;
+}
+
+.commentHeading {
+    font-weight: 700;
+}
+
+.commentBoxDiv {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.likeDiv:hover,
+.dislikeDiv:hover {
+    cursor: pointer;
+    opacity: 0.8;
+
+}
+
+.shareDiv {
+    padding: 4px 15px;
+    background-color: rgba(170, 170, 170, 0.1);
+    /* border: 1px solid; */
+    border-radius: 20px;
+}
+
+.shareDiv:hover {
+    cursor: pointer;
+    background-color: rgba(170, 170, 170, 0.2);
+}
+
+.commentBox {
+    width: 100%;
+}
+
+.buttonDiv {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+    gap: 8px;
+    margin-right: 2px;
+}
+
+.saveDiv {
+    align-items: center;
+    display: flex;
+    gap: 6px;
+    font-size: 19px;
+    padding: 2px 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+}
+
+.saveDiv:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.comment {
+    display:  flex;
+    gap: 1rem;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.commentUsername, .commentContent{
+    margin: 0;
+    padding: 0;
+}
+
+.commentUsername{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.suggestedTitlePara, .suggestedVideoOwner, .suggestedViews, .suggestedTime {
+    padding: 0;
+}
+
+.cardDiv {
+    margin-bottom: 0.6rem;
+}
+
+.likesDiv{
+    height: 30px;
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,19 @@
+.mainDiv {
+    width: 60%;
+    display: flex;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+
+.innerDiv {
+    width: 100%;
+}
+
+.likeHeading {
+    margin: 0;
+}
+
+.cardDiv {
+    margin-top: 2rem;
+    width: 100%;
+}

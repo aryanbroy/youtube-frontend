@@ -1,0 +1,68 @@
+.navMainDiv {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    position: sticky;
+    top: 0;
+    height: fit-content;
+    background-color: #343434;
+    z-index: 1000;
+}
+
+.navInnerDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 70px;
+    height: 50px;
+}
+
+.rightSideNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.heading {
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: rgba(255, 0, 0, 0.848);
+}
+
+.inputField {
+    color: red !important;
+    padding-right: 0 !important;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.searchDiv {
+    width: fit-content;
+}
+
+.suggestionsDiv {
+    margin-top: 0.3rem;
+    position: fixed;
+    z-index: 100;
+    background-color: #343434;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0.5rem;
+}
+
+.suggestionsPara:hover {
+    background-color: rgba(0, 0, 0, 0.1) !important;
+    cursor: pointer;
+}
+
+.uploadDiv {
+    cursor: pointer;
+
+}

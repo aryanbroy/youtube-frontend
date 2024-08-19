@@ -1,0 +1,109 @@
+.playListMainDiv {
+    display: flex;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.leftDiv {
+    width: 35%;
+}
+
+.rightDiv {
+    width: 65%;
+}
+
+
+.playlistCard {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+.imageContainer {
+    position: relative;
+}
+
+.playlistImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.playlistInfo {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.playlistTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.playlistMeta {
+    font-size: 0.9em;
+    color: #ccc;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.playlistVideos {
+    font-size: 0.9em;
+    margin-top: 5px;
+    color: #ccc;
+}
+
+.descriptionDiv {
+    margin-top: 1rem;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.ownerDiv {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.ownerImage {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.ownerPara {
+    font-size: 16px;
+    margin: 0;
+    padding: 0 10px;
+}
+
+.noVideoImg {
+    width: 300px;
+}
+
+.noVideoHeading {
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+.noVideoPara {
+    text-align: center;
+    padding: 0;
+    font-size: 1rem;
+}
+
+.noVideoTextDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -1rem;
+}

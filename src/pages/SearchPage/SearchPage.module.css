@@ -1,0 +1,68 @@
+.mainDiv {
+    margin-top: 20px;
+    margin-left: 5rem;
+    width: 70%;
+}
+
+.videoThumbnail {
+    width: 450px;
+    height: 270px;
+    border-radius: 12px;
+}
+
+.cardDiv {
+    display: flex;
+    gap: 10px;
+    align-items: start;
+    margin-bottom: 1rem;
+}
+
+.cardDiv:hover {
+    cursor: pointer;
+}
+
+.ownerInfo {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.ownerImg {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+}
+
+.videoOwnerName {
+    color: rgb(196, 195, 195);
+    font-size: 0.9rem;
+    padding-left: 0;
+}
+
+.videoDescription {
+    color: rgb(196, 195, 195);
+    padding-left: 0;
+}
+
+.videoContents {
+    width: 100%;
+}
+
+.videoTitle {
+    margin-bottom: 0;
+    height: fit-content;
+}
+
+.videoOwnerName:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.videoDescription {
+    padding: 0;
+}
+
+.videoDescription {
+    font-size: 14px;
+}

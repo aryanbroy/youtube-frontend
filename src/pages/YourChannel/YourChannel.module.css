@@ -1,0 +1,141 @@
+.channelAvatar {
+    width: 180px;
+    border-radius: 50%;
+}
+
+.channelDetailsDiv {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.channelCover {
+    width: 100%;
+    height: 300px;
+}
+
+.upperDiv {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 1rem;
+    width: 85vw;
+}
+
+.channelDetails {
+    width: 1000px;
+}
+
+.channelHeading {
+    font-weight: 900;
+
+}
+
+.channelAvatar {
+    margin-top: -3rem;
+}
+
+.channelUsernamePara,
+.channelHeading {
+    padding: 0;
+    margin: 0;
+}
+
+.channelUsernamePara {
+    margin-top: 2px;
+    color: #AAAAAA;
+}
+
+.buttonDiv {
+    margin-top: 8px;
+    display: flex;
+    gap: 0.6rem;
+}
+
+.userButtons {
+    display: flex;
+    margin-top: 1rem;
+    gap: 0.6rem;
+}
+
+.innerDiv {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #a9a9a985;
+}
+
+.active {
+    background-color: white !important;
+    color: black !important;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.cardMediaWrapper {
+    position: relative;
+}
+
+
+.cardMedia {
+    transition: transform 0.3s ease;
+}
+
+.individualVideoDiv:hover .cardMedia {
+    transform: scale(0.95);
+    opacity: 0.5;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    color: white;
+    font-size: 24px;
+    padding: 10px 20px;
+    /* border-radius: 16px; */
+    font-size: 1.2rem;
+}
+
+.individualVideoDiv:hover .overlay {
+    display: block;
+}
+
+.playDiv {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.playPara {
+    margin: 0;
+}
+
+.individualVideoDiv:hover {
+    cursor: pointer;
+}
+
+.playlistMeta {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.singleFollowing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.subscribed {
+    background-color: white !important;
+    color: black !important;
+}
